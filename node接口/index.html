@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$.ajax({
+				type:"get",
+				url:"http://localhost:3000/list",
+				success:function(data){
+					console.log(data)
+				}
+			});
+		</script>
+	</body>
+</html>
